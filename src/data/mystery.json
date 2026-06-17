@@ -1,0 +1,31 @@
+{
+  "theme": {
+    "primary": "#D32F2F",
+    "background": "#FFEBEE"
+  },
+  "layout": [
+    {
+      "id": "1",
+      "type": "BANNER_HERO",
+      "title": "Mystery Gift Carnival",
+      "image": "https://picsum.photos/800/302"
+    },
+    {
+      "id": "2",
+      "type": "PRODUCT_GRID_2X2",
+      "title": "Mystery Deals",
+      "products": [
+        {
+          "id": "1",
+          "name": "Gift Box",
+          "price": 499
+        },
+        {
+          "id": "2",
+          "name": "Surprise Toy",
+          "price": 699
+        }
+      ]
+    }
+  ]
+}

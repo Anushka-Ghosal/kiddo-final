@@ -1,0 +1,92 @@
+{
+  "theme": {
+    "primary": "#FF9933",
+    "background": "#FFF5E6"
+  },
+  "layout": [
+    {
+      "id": "1",
+      "type": "BANNER_HERO",
+      "title": "Back to School Sale",
+      "image": "https://picsum.photos/800/300"
+    },
+    {
+      "id": "2",
+      "type": "PRODUCT_GRID_2X2",
+      "title": "Popular Products",
+      "products": [
+        {
+          "id": "1",
+          "name": "Baby Diapers",
+          "price": 499,
+          "action": {
+            "type": "ADD_TO_CART",
+            "payload": {
+              "id": "1"
+            }
+          }
+        },
+        {
+          "id": "2",
+          "name": "Milk Powder",
+          "price": 799,
+          "action": {
+            "type": "ADD_TO_CART",
+            "payload": {
+              "id": "2"
+            }
+          }
+        },
+        {
+          "id": "3",
+          "name": "Baby Soap",
+          "price": 99,
+          "action": {
+            "type": "ADD_TO_CART",
+            "payload": {
+              "id": "3"
+            }
+          }
+        },
+        {
+          "id": "4",
+          "name": "Toy Car",
+          "price": 299,
+          "action": {
+            "type": "ADD_TO_CART",
+            "payload": {
+              "id": "4"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "type": "DYNAMIC_COLLECTION",
+      "title": "Summer Essentials",
+      "products": [
+        {
+          "id": "5",
+          "name": "Water Bottle",
+          "price": 299
+        },
+        {
+          "id": "6",
+          "name": "Lunch Box",
+          "price": 199
+        },
+        {
+          "id": "7",
+          "name": "School Bag",
+          "price": 899
+        },
+        {
+          "id": "8",
+          "name": "Toy Train",
+          "price": 499
+        }
+      ]
+    }
+  ]
+}
